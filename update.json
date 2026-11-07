@@ -1,12 +1,12 @@
 {
-  "versionCode": 195,
-  "versionName": "1.0.1",
+  "versionCode": 196,
+  "versionName": "1.0.2",
   "title": "猫站本地版更新",
-  "dialogMessage": "发现新版本 {latestVersion}。当前版本：{currentVersion}\n\n开放了NSFW模组的下载权限，炸了再说",
+  "dialogMessage": "发现新版本 {latestVersion}。当前版本：{currentVersion}\n\n支持选择正式版/测试版模组版本；分类筛选已生效；ZIP 包不再带临时文件；首屏更快。",
   "downloadLabel": "Github下载",
   "backupLabel": "夸克网盘",
-  "changelog": "开放了NSFW模组的下载权限，炸了再说",
-  "githubUrl": "https://github.com/MiaoNest/maozhan-local-updates/releases/tag/v1.0.1",
+  "changelog": "· 详情页可选 默认最新 / 正式版 / 测试版，下载锁定对应版本\n· 搜索框支持数字 ID 与 Steam 链接\n· 分类筛选真正生效\n· ZIP 只保留模组本体\n· 列表页加载提速（不再逐个拉详情）",
+  "githubUrl": "https://github.com/MiaoNest/maozhan-local-updates/releases/tag/v1.0.2",
   "backupUrl": "https://pan.quark.cn/s/c8f00f29f922",
   "force": false
 }
