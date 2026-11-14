@@ -1,12 +1,12 @@
 {
-  "versionCode": 198,
-  "versionName": "1.0.4",
+  "versionCode": 196,
+  "versionName": "1.0.2",
   "title": "猫站本地版更新",
-  "dialogMessage": "发现新版本 {latestVersion}。当前版本：{currentVersion}\n\n本版把模组解压换成原生实现，解决部分模组下载卡住的问题；界面也在横屏/平板上做了适配。",
+  "dialogMessage": "发现新版本 {latestVersion}。当前版本：{currentVersion}\n\n注意：原签名文件已丢失，1.0.1 与 1.0.2 签名不一致，本版需要先卸载旧版再安装（Download 里的 ZIP 不受影响）。\n\n支持选择正式版/测试版模组版本；分类筛选已生效；ZIP 包不再带临时文件；首屏更快。",
   "downloadLabel": "Github下载",
   "backupLabel": "夸克网盘",
-  "changelog": "· 下载：内置原生 zstd，失败自动回落，解决分块反复重试/卡住\n· 界面：骨架与卡片尺寸对齐，横屏/平板卡片统一竖排\n· 详情页可横屏，旋转后恢复现场\n· 大图时状态栏变黑，退出恢复",
-  "githubUrl": "https://github.com/MiaoNest/maozhan-local-updates/releases/tag/v1.0.4",
+  "changelog": "· 详情页可选 默认最新 / 正式版 / 测试版，下载锁定对应版本\n· 搜索框支持数字 ID 与 Steam 链接\n· 修复分类筛选不生效\n· ZIP 只保留模组本体\n· 列表页加载提速（不再逐个拉详情）",
+  "githubUrl": "https://github.com/MiaoNest/maozhan-local-updates/releases/tag/v1.0.2",
   "backupUrl": "https://pan.quark.cn/s/c8f00f29f922",
   "force": false
 }
